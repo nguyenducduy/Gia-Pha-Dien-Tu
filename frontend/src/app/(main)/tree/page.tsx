@@ -1,8 +1,6 @@
 import { Suspense } from 'react';
 import TreeViewPage from './tree-client';
 
-export const dynamic = 'force-dynamic';
-
 export default function TreePage() {
     return (
         <Suspense fallback={
